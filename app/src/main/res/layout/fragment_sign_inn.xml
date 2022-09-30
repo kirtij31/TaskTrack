@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInn"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="EMAIL"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+    <EditText
+        android:id="@+id/newName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/newAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="Age"/>
+
+    <EditText
+        android:id="@+id/newDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:hint="DOB"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/newUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User?"/>
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOG IN"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/signUp">
+
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.todo.SignInn"
+        tools:layout="@layout/fragment_sign_inn" />
+
+    <fragment
+        android:id="@+id/newToDo"
+        android:name="com.example.todo.NewToDo"
+        tools:layout="@layout/fragment_new_to_do" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/allToDo"
+        android:name="com.example.todo.AllToDo"
+        tools:layout="@layout/fragment_all_to_do" />
+
+</navigation>
