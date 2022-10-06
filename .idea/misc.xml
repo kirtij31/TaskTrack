@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/drawable/add.xml" value="0.199" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/drawable/add_circle.xml" value="0.187" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/activity_all_notes.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/activity_new_to_do.xml" value="0.25" />
@@ -11,8 +12,10 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/activity_user_to_do.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/all_notes.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_all_notess.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_all_to_do.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_all_to_do.xml" value="0.264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_all_users.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_bottom_sheet_new_to_do.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_new_to_do.xml" value="0.22871376811594202" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_new_to_doo.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ToDo/app/src/main/res/layout/fragment_sign_inn.xml" value="0.264" />

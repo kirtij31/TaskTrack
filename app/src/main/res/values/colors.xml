@@ -10,4 +10,6 @@
     <color name="brick">#D88A70</color>
     <color name="lightBrick">#EDAC96</color>
     <color name="lightBlue">#A3DDE2</color>
+    <color name="actionBar">#2DA698</color>
+    <color name="grey">#828786</color>
 </resources>

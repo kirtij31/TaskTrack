@@ -3,15 +3,50 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
 
-    <TextView
-        android:id="@+id/toDoText"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:hint="Add a note"> </TextView>
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/itemLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#D1D3D2"
+                android:layout_marginRight="12dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"/>
+
+            <TextView
+                android:id="@+id/toDoText"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:hint="Add a note"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"> </TextView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

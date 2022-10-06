@@ -9,6 +9,8 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.todo.daos.UserDao
+import com.example.todo.models.UserModel
 import com.google.firebase.auth.FirebaseAuth
 
 class SignInn : Fragment() {
@@ -73,7 +75,7 @@ class SignInn : Fragment() {
 
                         Toast.makeText(context, "SignIn succeeded.", Toast.LENGTH_SHORT).show()
 
-                            val user = User(
+                            val user = UserModel(
                                 currentUser.uid,
                                 name,
                                 "",
@@ -103,6 +105,7 @@ class SignInn : Fragment() {
             if (task.isSuccessful) {
                 Toast.makeText(context, "Authentication succeeded.", Toast.LENGTH_SHORT).show()
                 findNavController().navigate(R.id.allToDo)
+
 
             }
             else {

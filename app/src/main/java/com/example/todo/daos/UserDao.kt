@@ -1,5 +1,6 @@
-package com.example.todo
+package com.example.todo.daos
 
+import com.example.todo.models.UserModel
 import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
@@ -14,7 +15,7 @@ class UserDao {
      private val userCollection = dao.collection("users")
 
 
-    fun addUser(user: User){
+    fun addUser(user: UserModel){
             GlobalScope.launch(Dispatchers.IO) {
                 userCollection.document(user.uid).set(user)}
     }

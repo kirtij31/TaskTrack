@@ -1,5 +1,6 @@
-package com.example.todo
+package com.example.todo.daos
 
+import com.example.todo.models.ToDoModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.Dispatchers
@@ -17,7 +18,8 @@ class ToDoDao {
 
     fun addToDo(text:String){
         GlobalScope.launch (Dispatchers.IO){
-            val toDoModel = ToDoModel(currentUser.uid,text)
+            val currentTime = System.currentTimeMillis()
+            val toDoModel = ToDoModel(currentUser.uid,text,currentTime)
             toDoCollection.document().set(toDoModel)
         }
     }

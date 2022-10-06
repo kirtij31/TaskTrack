@@ -12,14 +12,13 @@
         tools:layout="@layout/fragment_sign_inn" />
 
     <fragment
-        android:id="@+id/newToDo"
-        android:name="com.example.todo.NewToDo"
-        tools:layout="@layout/fragment_new_to_do" >
-    </fragment>
-
-    <fragment
         android:id="@+id/allToDo"
         android:name="com.example.todo.AllToDo"
         tools:layout="@layout/fragment_all_to_do" />
+
+    <fragment
+        android:id="@+id/newToDo"
+        android:name="com.example.todo.BottomSheetNewToDoFragment"
+        tools:layout="@layout/fragment_bottom_sheet_new_to_do" />
 
 </navigation>

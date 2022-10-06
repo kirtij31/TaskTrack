@@ -17,7 +17,7 @@
 
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title"
         parent="@android:style/TextAppearance">
-        <item name="android:textColor">@color/brick</item>
+        <item name="android:textColor">#535757</item>
         <item name="android:textSize">20sp</item>
         <item name="colorControlNormal">@color/black</item>
     </style>
